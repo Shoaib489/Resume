@@ -16,7 +16,7 @@ const Education = () => {
           </div>
           <div className='flex flex-row gap-3 '>
             <p className='font-semibold text-[black]'>3.</p>
-            <p >I've been learning web development for the past year through a course at Staple Apps, gaining valuable skills and experience.". Ludhiana <span> (2023-24).</span></p>
+            <p >I have been learning web development for the past year through a course at Staple Apps in Ludhiana, gaining valuable skills and experience. <span> (2023-24).</span></p>
           </div>
         </div>
       </div>
