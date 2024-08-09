@@ -1,0 +1,10 @@
+@media screen and (max-width:416px) {
+    .nameHead{
+      font-size: 35px;
+    }
+}
+.imageSize{
+    transition: all 1s;
+    margin-top: 15px;
+}
+

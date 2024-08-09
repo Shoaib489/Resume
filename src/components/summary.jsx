@@ -3,9 +3,9 @@ import React from 'react'
 const Summary = () => {
     return (
         <div className='max-w-[1200px]  m-auto '>
-            <div className='p-7'>
+            <div className='p-[20px]'>
                 <p className='text-[26px] font-semibold'>Summary</p>
-                <p className='pl-4 mt-2  text-slate-600'>
+                <p className='p-2 mt-2  text-slate-600'>
                 <span className='font-semibold'>About</span>:
 
                     As a dedicated intern at Staple App Company for the past six months, I have immersed myself in the dynamic world of web development, focusing primarily on React.js, JavaScript, and CSS. This invaluable experience has not only enhanced my technical proficiency but also deepened my understanding of modern software development practices.
