@@ -39,6 +39,10 @@ const Projects = () => {
                         </button>
                     </Link>
                 </div>
+                <br />
+                <div  className='p-2  text-slate-600 mt-2' >
+                    <p>Still working on 3 more self project to improove my self and experience .</p>
+                </div>
             </div>
             <hr />
         </div>

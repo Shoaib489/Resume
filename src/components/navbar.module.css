@@ -6,5 +6,8 @@
 .imageSize{
     transition: all 1s;
     margin-top: 15px;
+    height: 170px;
+    width: 170px;
+    object-fit: cover;
 }
 

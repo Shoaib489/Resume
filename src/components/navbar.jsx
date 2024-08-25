@@ -28,7 +28,7 @@ const Navbar = () => {
 
                     </div>
                 </div>
-                <img className={`${classes.imageSize} rounded-[50%] object-cover `} src="https://media.licdn.com/dms/image/D4D12AQFUrM6o_8m-WQ/article-inline_image-shrink_1500_2232/0/1705940547574?e=1726704000&v=beta&t=tB2U17HhRC9XmhfdlWNk9PEOFAfGxhvApxsyJHisw4s" width="170px" alt="" />
+                <img className={`${classes.imageSize} rounded-[50%] object-cover  `} src="images/resume2.jpg"   alt="" />
             </div>
             <hr />
         </div>
