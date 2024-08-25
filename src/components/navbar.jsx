@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import classes from "./navbar.module.css"
-import { IconLink, IconMail, IconPhoneCall } from '@tabler/icons-react';
+import { IconBrandGithub, IconLink, IconMail, IconPhoneCall } from '@tabler/icons-react';
 
 const Navbar = () => {
 
@@ -22,8 +22,12 @@ const Navbar = () => {
                             <Link href="mailto:shoaib22657@gmail.com">shoaib22657@gmail.com</Link>
                         </p>
                         <p className='flex gap-2 text-slate-600 items-center '>
-                            <IconLink stroke={1.5} className='text-blue-600 ' />
+                            <IconBrandGithub stroke={1.5} className='text-blue-600 ' />
                             <Link className='underline ' target='main' href={"https://github.com/Shoaib489"}>github.Shoaib489</Link>.
+                        </p>
+                        <p className='flex gap-2 text-slate-600 items-center '>
+                            <IconLink stroke={1.5} className='text-blue-600 ' />
+                            <Link className='underline ' target='main' href={"https://resume-steel-psi.vercel.app/"}>resume link</Link>.
                         </p>
 
                     </div>
