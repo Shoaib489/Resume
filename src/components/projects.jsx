@@ -1,3 +1,4 @@
+import { Data } from '@/data'
 import { IconEye } from '@tabler/icons-react'
 import Link from 'next/link'
 import React from 'react'
@@ -8,39 +9,22 @@ const Projects = () => {
             <div className='p-[20px]'>
                 <p className='text-[26px] font-semibold'>Projects</p>
                 <br />
-                <div className='p-2  text-slate-600 mt-2'>
-                    <p> <span className='font-semibold'>Wedding photography</span> : in this website i have created many reusable cards, dyanamic data.
-                        fully functioning and responsive to any device of differnet catogeries and size .
-                    </p>
-                    <Link target='main' href={"https://wedding-orcin-two.vercel.app/"} >
-                        <button className='px-[8px] mt-1  flex items-center gap-1  bg-slate-300 rounded-md'>
-                            <span><IconEye stroke={2} /></span> <span className='pb-1'>view</span>
-                        </button>
-                    </Link>
+                <div className='' >
+                    {Data.map((value, index) => {
+                        return <div key={index} className='p-2  text-slate-600 mt-2'>
+                            <div>
+                                <span className='font-semibold'>{value?.topic}</span> : <span>{value?.describe}</span>
+                            </div>
+                            <Link target='=main' href={value?.link} >
+                                <button className='px-[8px] mt-2 flex items-center gap-1  bg-slate-300 rounded-md'>
+                                    <span><IconEye stroke={2} /></span> <span className='pb-1'>view</span>
+                                </button>
+                            </Link>
+                        </div>
+                    })}
                 </div>
-                <br />
-                <div className='p-2  text-slate-600 mt-2'>
-                    <p> <span className='font-semibold'>Maxion </span> : in this website i have created many reusable cards, dyanamic data. & very good looking Ui and each navbar componentes are unique and decent animation are used on hover and  ia hve adde a shopping site which  is just for Ui.
-                        fully functioning and responsive to any device of differnet catogeries and size .
-                    </p>
-                    <Link target='main' href={"https://demo-ten-delta-41.vercel.app/"} >
-                        <button className='px-[8px] mt-1 flex items-center gap-1  bg-slate-300 rounded-md'>
-                            <span><IconEye stroke={2} /></span> <span className='pb-1'>view</span>
-                        </button>
-                    </Link>
-                </div>
-                <br />
-                <div className='p-2  text-slate-600 mt-2'>
-                    <p> <span className='font-semibold'> Live Weather Data </span> : A live weather data app provides real-time information on weather conditions, including temperature, humidity, wind speed, and forecasts. It typically uses data from various meteorological sources and satellites to offer up-to-date weather updates and alerts. Users can view current conditions. 
-                    </p>
-                    <Link target='main' href={"https://weather-dun-beta.vercel.app/"} >
-                        <button className='px-[8px] mt-1  flex items-center gap-1  bg-slate-300 rounded-md'>
-                            <span><IconEye stroke={2} /></span> <span className='pb-1'>view</span>
-                        </button>
-                    </Link>
-                </div>
-                <br />
-                <div  className='p-2  text-slate-600 mt-2' >
+               
+                <div className='p-2  text-slate-600 mt-2' >
                     <p>Still working on 3 more self project to improove my self and experience .</p>
                 </div>
             </div>
