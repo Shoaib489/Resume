@@ -18,7 +18,7 @@ export const Data = [
     },
     {
         topic: "True-Balance",
-        describe: "it makes splitting group expenses easy and hassle-free. Perfect for friends, family, and colleagues, the app quickly divides costs equally or by custom shares. It provides real-time updates, integrates payment options for seamless settlements, and offers clear summaries to track who owes what. With its intuitive design and robust security, FairShare takes the stress out of managing shared expenses. Download it today to simplify your group payments!",
+        describe: "it makes it easy to split costs equally among friends. Simply enter your expenses, and the app divides the total evenly, so everyone pays their fair share. With real-time updates and secure payment options, managing shared costs has never been easier.Use TrueBlance to simplify splitting expenses with friends!",
         link: "https://truebalance.vercel.app/",
     },
 
